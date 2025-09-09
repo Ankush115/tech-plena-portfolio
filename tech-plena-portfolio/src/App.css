@@ -1,5 +1,59 @@
+body{
+    /* background-color: #181818; */
+
+}
 #main-container{
   border: 1px solid black;
   width: 100%;
   height: 808px;
+}
+.connect-wallet{
+  width: 100%;
+  height: 288px;
+  border: 1px solid black;
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: row;
+}
+.add-wallet{
+  width: 100%;
+  height: 472px;
+  border: 1px solid black;
+}
+header{
+  width: 100%;
+  height: 56px;
+  gap: 6px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  background-color: #181818;
+}
+#connect-wallet-btn{
+width: 136px;
+height: 32px;
+gap: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+background-color: greenyellow;
+}
+.portfolio-total{
+  width: 658.5px;
+  height:240px ;
+  border: 1px solid black;
+  margin: 25px;
+  
+}
+.total-portfolio{
+   width: 658.5px;
+  height:240px ;
+  border: 1px solid black;
+  margin: 25px;
+}
+p{
+  color: white;
 }
