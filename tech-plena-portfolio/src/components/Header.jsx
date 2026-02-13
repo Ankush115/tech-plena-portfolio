@@ -1,14 +1,17 @@
 import React from 'react'
-import "../App.css"
+import "../styles/Header.css"
+import ConnectWallet from './ConnectWallet'
 
 const Header = () => {
   return (
-    <>
-    <header>
-        <p> <img src="token.png" alt="" />Token Portfolio</p>
-        <button id='connect-wallet-btn'> <img src="./button.png" alt="" />Connect Wallet</button>
+    <header className="header">
+      <div className="header-content">
+        <div className="header-left">
+          <h1 className="header-title">📈 Portfolio</h1>
+        </div>
+        <ConnectWallet />
+      </div>
     </header>
-    </>
   )
 }
 
